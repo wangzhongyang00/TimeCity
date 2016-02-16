@@ -60,7 +60,7 @@ ADDED from AndroidManifest.xml:24:17
 	android:name
 		ADDED from AndroidManifest.xml:24:27
 activity#com.example.timetest.ChangedataActivity
-ADDED from AndroidManifest.xml:27:10
+ADDED from AndroidManifest.xml:27:9
 	android:configChanges
 		ADDED from AndroidManifest.xml:29:13
 	android:theme
@@ -68,10 +68,18 @@ ADDED from AndroidManifest.xml:27:10
 	android:name
 		ADDED from AndroidManifest.xml:28:13
 activity#com.example.timetest.UpdateaddsActivity
-ADDED from AndroidManifest.xml:31:12
+ADDED from AndroidManifest.xml:31:9
 	android:configChanges
 		ADDED from AndroidManifest.xml:33:13
 	android:theme
 		ADDED from AndroidManifest.xml:34:13
 	android:name
 		ADDED from AndroidManifest.xml:32:13
+activity#com.example.timetest.ChangetimeActivity
+ADDED from AndroidManifest.xml:35:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:37:13
+	android:theme
+		ADDED from AndroidManifest.xml:38:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13

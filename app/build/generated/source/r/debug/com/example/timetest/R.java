@@ -840,13 +840,14 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0b0025;
         public static final int always=0x7f0b0013;
         public static final int beginning=0x7f0b000f;
-        public static final int btn_top_back=0x7f0b003e;
-        public static final int btn_top_save=0x7f0b003f;
+        public static final int btn_top_back=0x7f0b003f;
+        public static final int btn_top_save=0x7f0b0040;
         public static final int button1=0x7f0b003c;
-        public static final int button2=0x7f0b003d;
+        public static final int button2=0x7f0b003e;
+        public static final int button3=0x7f0b003d;
         public static final int checkbox=0x7f0b002d;
         public static final int collapseActionView=0x7f0b0014;
-        public static final int day=0x7f0b0048;
+        public static final int day=0x7f0b0049;
         public static final int default_activity_button=0x7f0b0028;
         public static final int dialog=0x7f0b0018;
         public static final int disableHome=0x7f0b0009;
@@ -857,16 +858,18 @@ containing a value of this type.
         public static final int expanded_menu=0x7f0b002c;
         public static final int home=0x7f0b0003;
         public static final int homeAsUp=0x7f0b000a;
+        public static final int hour=0x7f0b004a;
         public static final int icon=0x7f0b002a;
-        public static final int id_city=0x7f0b0042;
-        public static final int id_district=0x7f0b0043;
-        public static final int id_province=0x7f0b0041;
+        public static final int id_city=0x7f0b0043;
+        public static final int id_district=0x7f0b0044;
+        public static final int id_province=0x7f0b0042;
         public static final int ifRoom=0x7f0b0015;
         public static final int image=0x7f0b0027;
         public static final int listMode=0x7f0b0006;
         public static final int list_item=0x7f0b0029;
         public static final int middle=0x7f0b0011;
-        public static final int month=0x7f0b0047;
+        public static final int minute=0x7f0b004b;
+        public static final int month=0x7f0b0048;
         public static final int never=0x7f0b0016;
         public static final int none=0x7f0b0012;
         public static final int normal=0x7f0b0007;
@@ -892,13 +895,13 @@ containing a value of this type.
         public static final int tabMode=0x7f0b0008;
         public static final int title=0x7f0b002b;
         public static final int top_action_bar=0x7f0b0020;
-        public static final int tx_c_adds=0x7f0b0040;
-        public static final int tx_c_age=0x7f0b0044;
-        public static final int tx_c_xingzuo=0x7f0b0045;
+        public static final int tx_c_adds=0x7f0b0041;
+        public static final int tx_c_age=0x7f0b0045;
+        public static final int tx_c_xingzuo=0x7f0b0046;
         public static final int up=0x7f0b0021;
         public static final int useLogo=0x7f0b000e;
         public static final int withText=0x7f0b0017;
-        public static final int year=0x7f0b0046;
+        public static final int year=0x7f0b0047;
     }
     public static final class integer {
         public static final int abc_max_action_buttons=0x7f090000;
@@ -931,7 +934,8 @@ containing a value of this type.
         public static final int activity_fullscreen=0x7f030018;
         public static final int activity_update_adds=0x7f030019;
         public static final int include_per_age=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int include_per_time=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;

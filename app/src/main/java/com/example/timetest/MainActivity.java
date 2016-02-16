@@ -34,6 +34,14 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, UpdateaddsActivity.class));
             }
         });
+        findViewById(R.id.button3).setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                startActivity(new Intent(MainActivity.this, ChangetimeActivity.class));
+            }
+        });
     }
 
 }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffff1f6"
+    android:orientation="vertical"
+    android:paddingTop="10dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@android:color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="111"
+            android:textColor="#5e5e5e"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tx_c_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#5e5e5e"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="#fffff1f6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@android:color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="按钮"
+            android:textColor="#5e5e5e"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tx_c_xingzuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#5e5e5e"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="#fffff1f6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+
+            <com.example.timetest.util.WheelView
+                android:id="@+id/hour"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <com.example.timetest.util.WheelView
+                android:id="@+id/minute"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/D:/Github/TimeCity/app/src/main/res/layout/include_per_time.xml -->
